@@ -1,25 +1,27 @@
 'use client'
 
-import Link from 'next/link'
 import { useState, useRef, useEffect } from 'react'
 
 const WELCOME_MESSAGES = {
   nayarit: {
-    content: '¡Hola! 👋 I\'m your Condo Advisor for **Nayarit**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Airbnb regulations\n• Buying/selling property\n\nAsk me anything in English or Spanish!',
-    subtitle: 'Nayarit • Ley de Condominio'
+    en: '¡Hola! 👋 I\'m your Condo Advisor for **Nayarit**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Airbnb regulations\n• Buying/selling property\n\nAsk me anything!',
+    es: '¡Hola! 👋 Soy tu Asesor de Condominios para **Nayarit**.\n\nPuedo ayudarte con:\n• Asambleas y votaciones\n• Requisitos de quórum\n• Fideicomiso y extranjeros\n• Cuotas de mantenimiento\n• Problemas con administrador\n• Regulaciones de Airbnb\n• Compra/venta de propiedad\n\n¡Pregúntame lo que quieras!',
+    subtitle: { en: 'Nayarit • Condominium Law', es: 'Nayarit • Ley de Condominio' }
   },
   jalisco: {
-    content: '¡Hola! 👋 I\'m your Condo Advisor for **Jalisco**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Buying/selling property\n\nAsk me anything in English or Spanish!',
-    subtitle: 'Jalisco • Código Civil'
+    en: '¡Hola! 👋 I\'m your Condo Advisor for **Jalisco**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Buying/selling property\n\nAsk me anything!',
+    es: '¡Hola! 👋 Soy tu Asesor de Condominios para **Jalisco**.\n\nPuedo ayudarte con:\n• Asambleas y votaciones\n• Requisitos de quórum\n• Fideicomiso y extranjeros\n• Cuotas de mantenimiento\n• Problemas con administrador\n• Compra/venta de propiedad\n\n¡Pregúntame lo que quieras!',
+    subtitle: { en: 'Jalisco • Civil Code', es: 'Jalisco • Código Civil' }
   }
 }
 
 export default function Home() {
   const [estado, setEstado] = useState('nayarit')
+  const [lang, setLang] = useState('en')
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: WELCOME_MESSAGES.nayarit.content,
+      content: WELCOME_MESSAGES.nayarit.en,
       time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
     }
   ])
@@ -40,7 +42,18 @@ export default function Home() {
       setEstado(newEstado)
       setMessages([{
         role: 'assistant',
-        content: WELCOME_MESSAGES[newEstado].content,
+        content: WELCOME_MESSAGES[newEstado][lang],
+        time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
+      }])
+    }
+  }
+
+  const changeLang = (newLang) => {
+    if (newLang !== lang) {
+      setLang(newLang)
+      setMessages([{
+        role: 'assistant',
+        content: WELCOME_MESSAGES[estado][newLang],
         time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
       }])
     }
@@ -69,7 +82,8 @@ export default function Home() {
             role: m.role,
             content: m.content
           })),
-          estado: estado
+          estado: estado,
+          lang: lang
         })
       })
 
@@ -95,17 +109,31 @@ export default function Home() {
     <div className="flex flex-col h-screen max-w-2xl mx-auto bg-[#111b21]">
       {/* Header */}
       <header className="bg-[#202c33]">
-        {/* Logo Banner - transparent background */}
+        {/* Logo Banner */}
         <div className="flex items-center justify-between px-4 py-3 bg-[#111b21]">
-          <div className="w-8"></div>
+          <div className="w-16"></div>
           <img 
             src="/logo_banner.png" 
             alt="Condo Advisor" 
             className="h-10 md:h-12 w-auto"
           />
-          <Link href="/templates" className="text-xl text-[#8696a0] hover:text-[#00a884]" title="Templates">
-            📄
-          </Link>
+          {/* Language Toggle */}
+          <div className="flex gap-1">
+            <button
+              onClick={() => changeLang('en')}
+              className={`text-lg px-1 rounded transition-opacity ${lang === 'en' ? 'opacity-100' : 'opacity-40 hover:opacity-70'}`}
+              title="English"
+            >
+              🇺🇸
+            </button>
+            <button
+              onClick={() => changeLang('es')}
+              className={`text-lg px-1 rounded transition-opacity ${lang === 'es' ? 'opacity-100' : 'opacity-40 hover:opacity-70'}`}
+              title="Español"
+            >
+              🇲🇽
+            </button>
+          </div>
         </div>
         
         {/* State Tabs */}
@@ -134,7 +162,7 @@ export default function Home() {
         
         {/* Subtitle */}
         <div className="px-4 py-1.5 bg-[#111b21]">
-          <p className="text-xs text-[#8696a0] text-center">{WELCOME_MESSAGES[estado].subtitle}</p>
+          <p className="text-xs text-[#8696a0] text-center">{WELCOME_MESSAGES[estado].subtitle[lang]}</p>
         </div>
       </header>
 
@@ -180,7 +208,7 @@ export default function Home() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Type a message..."
+            placeholder={lang === 'en' ? 'Type a message...' : 'Escribe un mensaje...'}
             className="flex-1 bg-[#2a3942] text-[#e9edef] rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-[#00a884] placeholder-[#8696a0]"
             disabled={isLoading}
           />
@@ -189,12 +217,19 @@ export default function Home() {
             disabled={isLoading || !input.trim()}
             className="bg-[#00a884] text-white rounded-lg px-4 py-2 text-sm font-medium hover:bg-[#02906f] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
-            Send
+            {lang === 'en' ? 'Send' : 'Enviar'}
           </button>
         </form>
-        <p className="text-[10px] text-[#8696a0] text-center mt-2">
-          Powered by <span className="text-[#00a884]">duendes.app</span> • Not legal advice
-        </p>
+        <div className="mt-2 text-center">
+          <p className="text-[10px] text-[#8696a0]">
+            Powered by <span className="text-[#00a884]">duendes.app</span>
+          </p>
+          <p className="text-[9px] text-[#667781] mt-1">
+            ⚠️ {lang === 'en' 
+              ? 'Important: This is informational only, not legal advice. Always consult a licensed attorney and check your condo bylaws.' 
+              : 'Importante: Esto es solo informativo, no es asesoría legal. Siempre consulta a un abogado y revisa tu reglamento.'}
+          </p>
+        </div>
       </footer>
     </div>
   )
