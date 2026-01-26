@@ -59,6 +59,58 @@ export default function Home() {
     }
   }
 
+  const exportToPDF = async () => {
+    const html2pdf = (await import('html2pdf.js')).default
+    
+    const disclaimer = lang === 'en' 
+      ? 'IMPORTANT: This document is for informational purposes only and does not constitute legal advice. Always consult a licensed attorney and review your condominium bylaws for specific guidance.'
+      : 'IMPORTANTE: Este documento es solo informativo y no constituye asesoría legal. Siempre consulta a un abogado y revisa tu reglamento de condominio para orientación específica.'
+    
+    const content = document.createElement('div')
+    content.innerHTML = `
+      <div style="font-family: Arial, sans-serif; padding: 20px; max-width: 700px; margin: 0 auto;">
+        <div style="text-align: center; margin-bottom: 20px;">
+          <img src="/logo_banner.png" style="height: 50px; margin-bottom: 10px;" />
+          <h1 style="font-size: 14pt; color: #00a884; margin: 0;">${lang === 'en' ? 'Consultation Report' : 'Reporte de Consulta'}</h1>
+          <p style="font-size: 10pt; color: #666; margin: 5px 0;">${estado.charAt(0).toUpperCase() + estado.slice(1)} • ${new Date().toLocaleDateString()}</p>
+        </div>
+        
+        <div style="border-top: 2px solid #00a884; padding-top: 15px;">
+          ${messages.filter((m, i) => i > 0).map(m => `
+            <div style="margin-bottom: 15px; padding: 10px; background: ${m.role === 'user' ? '#e8f5e9' : '#f5f5f5'}; border-radius: 8px;">
+              <p style="font-size: 10pt; color: #666; margin: 0 0 5px 0; font-weight: bold;">
+                ${m.role === 'user' ? (lang === 'en' ? 'Question' : 'Pregunta') : (lang === 'en' ? 'Answer' : 'Respuesta')}:
+              </p>
+              <p style="font-size: 12pt; margin: 0; white-space: pre-wrap; line-height: 1.5;">${m.content}</p>
+            </div>
+          `).join('')}
+        </div>
+        
+        <div style="margin-top: 30px; padding: 15px; background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px;">
+          <p style="font-size: 10pt; color: #856404; margin: 0; text-align: center;">
+            ⚠️ ${disclaimer}
+          </p>
+        </div>
+        
+        <div style="margin-top: 20px; text-align: center;">
+          <p style="font-size: 9pt; color: #999;">
+            ${lang === 'en' ? 'Made by' : 'Hecho por'} duendes.app © 2026
+          </p>
+        </div>
+      </div>
+    `
+    
+    const opt = {
+      margin: 10,
+      filename: `condo-advisor-${estado}-${Date.now()}.pdf`,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2 },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    }
+    
+    html2pdf().set(opt).from(content).save()
+  }
+
   const sendMessage = async (e) => {
     e.preventDefault()
     if (!input.trim() || isLoading) return
@@ -111,7 +163,14 @@ export default function Home() {
       <header className="bg-[#202c33]">
         {/* Logo Banner */}
         <div className="flex items-center justify-between px-4 py-3 bg-[#111b21]">
-          <div className="w-16"></div>
+          {/* PDF Button */}
+          <button
+            onClick={exportToPDF}
+            className="text-lg text-[#8696a0] hover:text-[#00a884] transition-colors"
+            title={lang === 'en' ? 'Download PDF' : 'Descargar PDF'}
+          >
+            📄
+          </button>
           <img 
             src="/logo_banner.png" 
             alt="Condo Advisor" 
@@ -136,7 +195,7 @@ export default function Home() {
           </div>
         </div>
         
-        {/* State Tabs - Jalisco first, Nayarit second */}
+        {/* State Tabs */}
         <div className="flex border-b border-[#2a3942]">
           <button
             onClick={() => changeEstado('jalisco')}
@@ -221,7 +280,7 @@ export default function Home() {
           </button>
         </form>
         
-        {/* Disclaimer - more visible */}
+        {/* Disclaimer */}
         <div className="mt-3 p-2 bg-[#1a2329] rounded-lg border border-[#2a3942]">
           <p className="text-[11px] text-[#aebac1] text-center leading-relaxed">
             ⚠️ {lang === 'en' 
