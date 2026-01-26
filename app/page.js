@@ -95,15 +95,15 @@ export default function Home() {
     <div className="flex flex-col h-screen max-w-2xl mx-auto bg-[#111b21]">
       {/* Header */}
       <header className="bg-[#202c33]">
-        {/* Logo Banner */}
-        <div className="flex items-center justify-between px-4 py-3 bg-white">
+        {/* Logo Banner - transparent background */}
+        <div className="flex items-center justify-between px-4 py-3 bg-[#111b21]">
           <div className="w-8"></div>
           <img 
             src="/logo_banner.png" 
             alt="Condo Advisor" 
             className="h-10 md:h-12 w-auto"
           />
-          <Link href="/templates" className="text-xl text-[#5f9ea0] hover:text-[#00a884]" title="Templates">
+          <Link href="/templates" className="text-xl text-[#8696a0] hover:text-[#00a884]" title="Templates">
             📄
           </Link>
         </div>
