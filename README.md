@@ -26,19 +26,6 @@ WhatsApp-style bilingual legal assistant for Nayarit condominium law.
 - Tailwind CSS
 - PWA ready
 
-## Setup
-
-1. Clone the repo
-2. Run `npm install`
-3. Add `ANTHROPIC_API_KEY` to `.env.local`
-4. Run `npm run dev`
-
-## Environment Variables
-
-```
-ANTHROPIC_API_KEY=your_api_key_here
-```
-
 ## Legal Disclaimer
 
 This is an informational tool only. Always consult a licensed Mexican attorney for specific legal matters.
@@ -46,3 +33,5 @@ This is an informational tool only. Always consult a licensed Mexican attorney f
 ---
 
 🐝 Built by [duendes.app](https://duendes.app)
+
+*Last updated: 2026-01-25*
