@@ -9,7 +9,7 @@ const WELCOME_MESSAGES = {
     subtitle: 'Nayarit Condominium Law • Online'
   },
   jalisco: {
-    content: '¡Hola! 👋 I\'m your Condo Advisor for **Jalisco**.\n\n⚠️ Important: Jalisco has TWO possible legal regimes:\n• **1985 Law** (older condos that haven\'t transitioned)\n• **CCJ New Regime** (condos that adopted new rules)\n\nI\'ll ask which applies to your condo when relevant.\n\nI can help with:\n• HOA meetings & voting\n• Fideicomiso & foreign ownership\n• Maintenance fees\n• Property manager issues\n\nAsk me anything in English or Spanish!',
+    content: '¡Hola! 👋 I\'m your Condo Advisor for **Jalisco**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Buying/selling property\n\nAsk me anything in English or Spanish!',
     subtitle: 'Jalisco Condominium Law • Online'
   }
 }
