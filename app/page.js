@@ -29,6 +29,9 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false)
   const messagesEndRef = useRef(null)
 
+  // Check if there's a consultation (more than just welcome message)
+  const hasConsultation = messages.length > 1
+
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }
@@ -60,6 +63,8 @@ export default function Home() {
   }
 
   const exportToPDF = async () => {
+    if (!hasConsultation) return
+    
     const html2pdf = (await import('html2pdf.js')).default
     
     const disclaimer = lang === 'en' 
@@ -163,7 +168,8 @@ export default function Home() {
           {/* PDF Button */}
           <button
             onClick={exportToPDF}
-            className="text-lg text-[#8696a0] hover:text-[#00a884] transition-colors"
+            disabled={!hasConsultation}
+            className={`text-lg transition-colors ${hasConsultation ? 'text-[#8696a0] hover:text-[#00a884]' : 'text-[#8696a0] opacity-30 cursor-not-allowed'}`}
             title={lang === 'en' ? 'Download PDF' : 'Descargar PDF'}
           >
             📄
@@ -276,6 +282,19 @@ export default function Home() {
             {lang === 'en' ? 'Send' : 'Enviar'}
           </button>
         </form>
+        
+        {/* PDF Download Button */}
+        <button
+          onClick={exportToPDF}
+          disabled={!hasConsultation}
+          className={`w-full mt-2 py-2 rounded-lg text-xs font-medium transition-colors ${
+            hasConsultation 
+              ? 'bg-[#2a3942] text-[#00a884] hover:bg-[#3a4952] cursor-pointer' 
+              : 'bg-[#2a3942] text-[#8696a0] opacity-50 cursor-not-allowed'
+          }`}
+        >
+          📄 {lang === 'en' ? 'Download consultation as PDF' : 'Descargar consulta en PDF'}
+        </button>
         
         {/* Disclaimer */}
         <div className="mt-3 p-2 bg-[#1a2329] rounded-lg border border-[#2a3942]">
