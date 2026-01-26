@@ -16,10 +16,10 @@ body {
   overflow: hidden;
 }
 
-/* Chat background - less opacity to show more of the image */
+/* Chat background - more brightness */
 .chat-bg {
   background-image: 
-    linear-gradient(rgba(17, 27, 33, 0.6), rgba(17, 27, 33, 0.6)),
+    linear-gradient(rgba(17, 27, 33, 0.45), rgba(17, 27, 33, 0.45)),
     url('/bg-condo.png');
   background-size: cover;
   background-position: center;
@@ -28,13 +28,13 @@ body {
 
 /* Message bubbles with transparency */
 .bubble-user {
-  background: rgba(0, 92, 75, 0.85) !important;
-  backdrop-filter: blur(8px);
+  background: rgba(0, 92, 75, 0.8) !important;
+  backdrop-filter: blur(10px);
 }
 
 .bubble-assistant {
-  background: rgba(32, 44, 51, 0.85) !important;
-  backdrop-filter: blur(8px);
+  background: rgba(32, 44, 51, 0.8) !important;
+  backdrop-filter: blur(10px);
 }
 
 /* Message animation */
