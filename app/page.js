@@ -95,8 +95,8 @@ export default function Home() {
             <div 
               className={`max-w-[85%] rounded-lg px-3 py-2 shadow ${
                 msg.role === 'user' 
-                  ? 'bg-[#005c4b] rounded-tr-none' 
-                  : 'bg-[#202c33] rounded-tl-none'
+                  ? 'bubble-user rounded-tr-none' 
+                  : 'bubble-assistant rounded-tl-none'
               }`}
             >
               <p className="text-[#e9edef] whitespace-pre-wrap text-sm leading-relaxed">
