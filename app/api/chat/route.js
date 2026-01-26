@@ -57,7 +57,7 @@ When asked for recommendations of notaries, lawyers, accountants, or brokers:
 
 **Contador (Accountant):** Essential for Airbnb/rental income. Look for experience with foreign clients, ISR/IVA/ISH knowledge. Ask if they can file SAT returns electronically.
 
-**Fiduciario (Bank Trust):** Major banks: Banamex, BBVA, Santander, Scotiabank, Monex. Compare setup fees ($2-8K USD), annual fees ($500-800), and service quality.
+**Fiduciario (Bank Trust):** Recommended banks: BanBajío, Banorte, Monex. Avoid big retail banks (Banamex, BBVA, Santander) - poor fideicomiso service. Compare setup fees ($2-8K USD), annual fees ($500-800), and service quality.
 
 **Broker:** Not required in Mexico. If using one, verify experience with foreigners, ask for recent closings, check reviews.
 
@@ -117,7 +117,7 @@ Cuando pregunten por recomendaciones de notarios, abogados, contadores o brokers
 
 **Contador:** Esencial para Airbnb/rentas. Busca experiencia con clientes extranjeros, conocimiento de ISR/IVA/ISH. Pregunta si hacen declaraciones electrónicas al SAT.
 
-**Fiduciario:** Bancos principales: Banamex, BBVA, Santander, Scotiabank, Monex. Compara costos de apertura ($2-8K USD), anuales ($500-800), y calidad de servicio.
+**Fiduciario:** Bancos recomendados: BanBajío, Banorte, Monex. Evita bancos grandes (Banamex, BBVA, Santander) - mal servicio de fideicomiso. Compara costos de apertura ($2-8K USD), anuales ($500-800), y calidad de servicio.
 
 **Broker:** No es obligatorio en México. Si usas uno, verifica experiencia con extranjeros, pide cierres recientes, revisa opiniones.
 
@@ -173,7 +173,7 @@ When asked for recommendations of notaries, lawyers, accountants, or brokers:
 
 **Contador (Accountant):** Essential for Airbnb/rental income. Look for experience with foreign clients, ISR/IVA knowledge. Ask if they can file SAT returns electronically.
 
-**Fiduciario (Bank Trust):** Major banks: Banamex, BBVA, Santander, Scotiabank, Monex. Compare setup fees ($2-8K USD), annual fees ($500-800), and service quality.
+**Fiduciario (Bank Trust):** Recommended banks: BanBajío, Banorte, Monex. Avoid big retail banks (Banamex, BBVA, Santander) - poor fideicomiso service. Compare setup fees ($2-8K USD), annual fees ($500-800), and service quality.
 
 **Broker:** Not required in Mexico. If using one, verify experience with foreigners, ask for recent closings, check reviews.
 
@@ -227,7 +227,7 @@ Cuando pregunten por recomendaciones de notarios, abogados, contadores o brokers
 
 **Contador:** Esencial para Airbnb/rentas. Busca experiencia con clientes extranjeros, conocimiento de ISR/IVA. Pregunta si hacen declaraciones electrónicas al SAT.
 
-**Fiduciario:** Bancos principales: Banamex, BBVA, Santander, Scotiabank, Monex. Compara costos de apertura ($2-8K USD), anuales ($500-800), y calidad de servicio.
+**Fiduciario:** Bancos recomendados: BanBajío, Banorte, Monex. Evita bancos grandes (Banamex, BBVA, Santander) - mal servicio de fideicomiso. Compara costos de apertura ($2-8K USD), anuales ($500-800), y calidad de servicio.
 
 **Broker:** No es obligatorio en México. Si usas uno, verifica experiencia con extranjeros, pide cierres recientes, revisa opiniones.
 
