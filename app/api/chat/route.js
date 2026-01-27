@@ -46,6 +46,37 @@ Quorum: 1st >50% indiviso, 2nd majority of owners, 3rd those present
 Majorities: Simple 50%+1, Qualified 75%, Unanimous 100%
 Convocatoria: 8 días naturales
 
+## ⚖️ LEGITIMACIÓN PARA VOTAR EN ASAMBLEAS
+**Who can vote:** Only condóminos (owners) with proper title documents.
+
+**Valid documents to vote:**
+- Escritura pública (public deed) ✅
+- Fideicomiso with voting rights ✅
+- Protocolized court judgment (sentencia protocolizada) ✅
+
+**ADJUDICACIÓN JUDICIAL (Court Adjudication) - IMPORTANT:**
+If someone claims ownership via court judgment (sentencia de adjudicación):
+- Registered in RPP (Public Registry) = gives publicity, NOT full ownership title
+- Must be PROTOCOLIZED by notary to be equivalent to escritura
+- Without protocolization = similar to private contract, NOT full title
+- Demand: "Exhibit protocolized deed, not just registered judgment"
+
+**If someone tries to vote without proper title:**
+1. Request they prove ownership with escritura or protocolized document
+2. If they only have registered judgment without protocolization, challenge their vote
+3. Have a notary present to certify the proceedings
+4. Vote under protest and document everything for later legal action
+
+**TERCERO DE BUENA FE (Good Faith Third Party):**
+Buyers who paid, have contract, and possess the unit may have superior rights over someone who acquired via auction/adjudication if they weren't part of the original lawsuit.
+Principle: "Nemo dat quod non habet" - nobody can transfer more rights than they have.
+
+**Red flags in assemblies:**
+- One person voting for many units without proper powers
+- Claims of ownership without escritura
+- Pressure tactics or intimidation
+- Demand: specific power of attorney (poder especial) for EACH unit they represent
+
 ## 👨‍⚖️ FINDING PROFESSIONALS
 When asked for recommendations of notaries, lawyers, accountants, or brokers:
 - DO NOT recommend specific names or firms
@@ -106,6 +137,37 @@ Quórum: 1ra >50% indiviso, 2da mayoría de condóminos, 3ra los presentes
 Mayorías: Simple 50%+1, Calificada 75%, Unánime 100%
 Convocatoria: 8 días naturales
 
+## ⚖️ LEGITIMACIÓN PARA VOTAR EN ASAMBLEAS
+**Quién puede votar:** Solo condóminos (propietarios) con documentos de título válidos.
+
+**Documentos válidos para votar:**
+- Escritura pública ✅
+- Fideicomiso con cláusula de voto ✅
+- Sentencia judicial PROTOCOLIZADA ante notario ✅
+
+**ADJUDICACIÓN JUDICIAL - IMPORTANTE:**
+Si alguien reclama propiedad por sentencia de adjudicación:
+- Inscrita en RPP = da publicidad, NO es título de propiedad completo
+- Debe estar PROTOCOLIZADA por notario para equivaler a escritura
+- Sin protocolización = similar a contrato privado, NO título pleno
+- Exige: "Exhiba escritura protocolizada, no solo sentencia inscrita"
+
+**Si alguien quiere votar sin título válido:**
+1. Solicita que acredite propiedad con escritura o documento protocolizado
+2. Si solo tiene sentencia inscrita sin protocolizar, impugna su voto
+3. Ten un notario presente para dar fe
+4. Vota bajo protesta y documenta todo para acción legal posterior
+
+**TERCERO DE BUENA FE:**
+Compradores que pagaron, tienen contrato y posesión pueden tener mejor derecho que quien adquirió por remate/adjudicación si no fueron parte del juicio original.
+Principio: "Nemo dat quod non habet" - nadie puede transmitir más derechos de los que tiene.
+
+**Banderas rojas en asambleas:**
+- Una persona votando por muchas unidades sin poderes
+- Reclamos de propiedad sin escritura
+- Tácticas de presión o intimidación
+- Exige: poder especial notarial para CADA unidad que representen
+
 ## 👨‍⚖️ BUSCAR PROFESIONALES
 Cuando pregunten por recomendaciones de notarios, abogados, contadores o brokers:
 - NO recomiendes nombres o despachos específicos
@@ -162,6 +224,37 @@ Promesa (Arts. 1835-1837): Must be written, contain essential elements, limited 
 **Quorum:** 1st >50% indiviso, 2nd no minimum (majority of present decides)
 **Majorities:** Simple 50%+1, Qualified 75%+majority of condóminos, Unanimous 100%
 
+## ⚖️ LEGITIMACIÓN PARA VOTAR EN ASAMBLEAS
+**Who can vote:** Only condóminos (owners) with proper title documents.
+
+**Valid documents to vote:**
+- Escritura pública (public deed) ✅
+- Fideicomiso with voting rights ✅
+- Protocolized court judgment (sentencia protocolizada) ✅
+
+**ADJUDICACIÓN JUDICIAL (Court Adjudication) - IMPORTANT:**
+If someone claims ownership via court judgment (sentencia de adjudicación):
+- Registered in RPP (Public Registry) = gives publicity, NOT full ownership title
+- Must be PROTOCOLIZED by notary to be equivalent to escritura
+- Without protocolization = similar to private contract, NOT full title
+- Demand: "Exhibit protocolized deed, not just registered judgment"
+
+**If someone tries to vote without proper title:**
+1. Request they prove ownership with escritura or protocolized document
+2. If they only have registered judgment without protocolization, challenge their vote
+3. Have a notary present to certify the proceedings
+4. Vote under protest and document everything for later legal action
+
+**TERCERO DE BUENA FE (Good Faith Third Party):**
+Buyers who paid, have contract, and possess the unit may have superior rights over someone who acquired via auction/adjudication if they weren't part of the original lawsuit.
+Principle: "Nemo dat quod non habet" - nobody can transfer more rights than they have.
+
+**Red flags in assemblies:**
+- One person voting for many units without proper powers
+- Claims of ownership without escritura
+- Pressure tactics or intimidation
+- Demand: specific power of attorney (poder especial) for EACH unit they represent
+
 ## 👨‍⚖️ FINDING PROFESSIONALS
 When asked for recommendations of notaries, lawyers, accountants, or brokers:
 - DO NOT recommend specific names or firms
@@ -215,6 +308,37 @@ Promesa (Arts. 1835-1837): Debe ser escrita, contener elementos esenciales, tiem
 **Convocatoria:** Mínimo 8 días, por escrito, con orden del día
 **Quórum:** 1ra >50% indiviso, 2da sin mínimo (mayoría de presentes decide)
 **Mayorías:** Simple 50%+1, Calificada 75%+mayoría de condóminos, Unánime 100%
+
+## ⚖️ LEGITIMACIÓN PARA VOTAR EN ASAMBLEAS
+**Quién puede votar:** Solo condóminos (propietarios) con documentos de título válidos.
+
+**Documentos válidos para votar:**
+- Escritura pública ✅
+- Fideicomiso con cláusula de voto ✅
+- Sentencia judicial PROTOCOLIZADA ante notario ✅
+
+**ADJUDICACIÓN JUDICIAL - IMPORTANTE:**
+Si alguien reclama propiedad por sentencia de adjudicación:
+- Inscrita en RPP = da publicidad, NO es título de propiedad completo
+- Debe estar PROTOCOLIZADA por notario para equivaler a escritura
+- Sin protocolización = similar a contrato privado, NO título pleno
+- Exige: "Exhiba escritura protocolizada, no solo sentencia inscrita"
+
+**Si alguien quiere votar sin título válido:**
+1. Solicita que acredite propiedad con escritura o documento protocolizado
+2. Si solo tiene sentencia inscrita sin protocolizar, impugna su voto
+3. Ten un notario presente para dar fe
+4. Vota bajo protesta y documenta todo para acción legal posterior
+
+**TERCERO DE BUENA FE:**
+Compradores que pagaron, tienen contrato y posesión pueden tener mejor derecho que quien adquirió por remate/adjudicación si no fueron parte del juicio original.
+Principio: "Nemo dat quod non habet" - nadie puede transmitir más derechos de los que tiene.
+
+**Banderas rojas en asambleas:**
+- Una persona votando por muchas unidades sin poderes
+- Reclamos de propiedad sin escritura
+- Tácticas de presión o intimidación
+- Exige: poder especial notarial para CADA unidad que representen
 
 ## 👨‍⚖️ BUSCAR PROFESIONALES
 Cuando pregunten por recomendaciones de notarios, abogados, contadores o brokers:
