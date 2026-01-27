@@ -249,7 +249,7 @@ export default function Home() {
                 : 'text-[#8696a0] hover:text-[#e9edef] hover:bg-[#1a2329] bg-[#202c33]'
             }`}
           >
-            🏖️ Riviera Nayarit
+            🌊 Riviera Nayarit
           </button>
         </div>
         
