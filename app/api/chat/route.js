@@ -100,6 +100,7 @@ Order: Due diligence → THEN deposit → THEN proceed
 **ISR Estimates (capital gains):**
 - Without RFC: ~25% of gross OR ~35% of net gain
 - With RFC + strategy: potentially much lower
+- **Calculator:** notaria-solutions.vercel.app
 - **Always consult a contador for precise calculations**
 
 **ISABI (Acquisition Tax) Nayarit:** 2% fixed on higher of fiscal/sale value
@@ -118,6 +119,7 @@ Gross rental income
 - Property management (if applicable)
 = Net income
 
+**Calculator:** anfitrion-mx.vercel.app
 **Tip:** If you don't have RFC with Airbnb, they withhold 20% ISR + 16% IVA automatically
 
 ## 💸 HOA FEES (Cuotas)
@@ -223,12 +225,14 @@ Haz due diligence ANTES de dar dinero. El CLG puede revelar gravámenes ocultos.
 **ISR Estimado (ganancia de capital):**
 - Sin RFC: ~25% del bruto o ~35% de ganancia neta
 - Con RFC + estrategia: potencialmente mucho menor
+- **Calculadora:** notaria-solutions.vercel.app
 - **Consulta contador para cálculos precisos**
 
 **ISABI Nayarit:** 2% fijo sobre el mayor entre fiscal/operación
 
 ## 🏠 IMPUESTOS AIRBNB
 ISH 5% (Nayarit), ISR según régimen, IVA 16%
+**Calculadora:** anfitrion-mx.vercel.app
 Sin RFC en Airbnb = retención automática 20% ISR + 16% IVA
 
 ## ESTILO
