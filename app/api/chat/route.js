@@ -150,6 +150,72 @@ If you have an LLC/LLP in the US:
 - Document each trip with meeting minutes
 - **Consult your US CPA** - this is a real strategy but do it right
 
+## 🔨 REMODELING / CONTRACTORS - PROTECT YOURSELF
+**Golden rule:** Pay by STAGES, not upfront
+- Get detailed written budget: breakdown by stage + cost per stage
+- Pay only for completed work
+- When (not if) contractor disappears, you can hire someone else to finish
+- Without clear budget = pay double
+
+**Common scenarios:**
+- Contractor asks for 50% upfront → negotiates to 30% max
+- "Materials cost more now" → should be in original quote
+- Disappears mid-project → at least you have partial work done
+
+## 🛡️ INSURANCE - WHAT YOU NEED TO KNOW
+**Condo building insurance:**
+- NOT mandatory by law
+- If the HOA buys it, MUST specify hurricane coverage - otherwise NOT covered
+- Review what's actually covered before assuming
+
+**Contents insurance (YOUR stuff):**
+- Easiest insurance to claim
+- Covers your furniture, electronics, personal items
+- **Pro tip:** If your neighbor's leak damages YOUR unit, their contents insurance may cover your damages
+
+**What's typically NOT covered:**
+- Flooding (separate policy)
+- Earthquakes (separate rider)
+- "Acts of God" unless specified
+
+## 👮 ADMINISTRADOR & SECURITY
+The administrador should have:
+- Good communication with security staff
+- Authority to enforce rules through security
+- Security should follow admin's instructions, not individual owners
+
+**Enforcement power:**
+- Security can deny access to rule-breakers
+- Can control gate access (pluma)
+- Should document incidents
+
+## ⚖️ FINES & PENALTIES FOR RULE-BREAKERS
+Technically, only government can impose "multas" (fines). But HOAs can:
+- Charge "cuota extraordinaria" for violations
+- Call it "penalización" or "cargo" instead of "multa"
+- Apply to: non-payers (morosos) AND troublemakers (conflictivos)
+
+**If they don't pay, you CAN:**
+- Reduce centralized services (if applicable)
+- Restrict gate access (pluma)
+- Stop cleaning their garden area
+- Limit pool/gym access
+- **Always find a way** - just be creative with wording
+
+## 🛂 TOURIST VS RESIDENT - FOR BUYING PROPERTY
+**Can you buy as a tourist?** YES ✅
+- Legal to purchase through fideicomiso
+- No residency required to own
+
+**BUT residency is RECOMMENDED because:**
+- Lower ISR when you sell (resident vs non-resident rates)
+- Easier banking (open accounts, get credit)
+- Simpler RFC process
+- Less paperwork for everything
+- Avoid future headaches
+
+**Types:** Temporal (1-4 years) or Permanente
+
 ## 💰 TAXES & RFC - CRITICAL FOR SELLING
 
 **If you DON'T have RFC (tax ID):**
@@ -347,6 +413,72 @@ Si tienes LLC/LLP en USA:
 - Asegúrate que familia/amigos frecuentes sean miembros de la LLC
 - Documenta cada viaje con acta de reunión
 - **Consulta tu CPA en USA** - es estrategia real pero hazlo bien
+
+## 🔨 REMODELACIONES / CONTRATISTAS - PROTÉGETE
+**Regla de oro:** Paga por ETAPAS, no por adelantado
+- Obtén presupuesto escrito detallado: desglose por etapa + costo por etapa
+- Paga solo por trabajo completado
+- Cuando (no si) el contratista desaparezca, puedes contratar a otro para terminar
+- Sin presupuesto claro = pago doble
+
+**Escenarios comunes:**
+- Contratista pide 50% adelantado → negocia máximo 30%
+- "Los materiales subieron" → debería estar en cotización original
+- Desaparece a medio proyecto → al menos tienes trabajo parcial
+
+## 🛡️ SEGUROS - LO QUE DEBES SABER
+**Seguro del edificio/condominio:**
+- NO es obligatorio por ley
+- Si la HOA lo compra, DEBE especificar cobertura de huracán - si no, NO está cubierto
+- Revisa qué está cubierto realmente
+
+**Seguro de contenidos (TUS cosas):**
+- El seguro MÁS fácil de cobrar
+- Cubre muebles, electrónicos, artículos personales
+- **Pro tip:** Si la gotera de tu vecino daña TU unidad, su seguro de contenidos puede cubrir tus daños
+
+**Lo que típicamente NO está cubierto:**
+- Inundaciones (póliza separada)
+- Terremotos (rider separado)
+- "Actos de Dios" a menos que se especifique
+
+## 👮 ADMINISTRADOR Y SEGURIDAD
+El administrador debe tener:
+- Buena comunicación con personal de seguridad
+- Autoridad para hacer cumplir reglas vía seguridad
+- Seguridad debe seguir instrucciones del admin, no de propietarios individuales
+
+**Poder de enforcement:**
+- Seguridad puede negar acceso a quienes rompen reglas
+- Puede controlar acceso a pluma
+- Debe documentar incidentes
+
+## ⚖️ MULTAS Y PENALIZACIONES
+Técnicamente, solo el gobierno puede imponer "multas". Pero la HOA puede:
+- Cobrar "cuota extraordinaria" por violaciones
+- Llamarlo "penalización" o "cargo" en vez de "multa"
+- Aplicar a: morosos Y conflictivos
+
+**Si no pagan, PUEDES:**
+- Reducir servicios centralizados (si aplica)
+- Restringir acceso a pluma
+- Dejar de limpiar su área de jardín
+- Limitar acceso a alberca/gym
+- **Siempre hay manera** - solo sé creativo con las palabras
+
+## 🛂 TURISTA VS RESIDENTE - PARA COMPRAR
+**¿Puedes comprar como turista?** SÍ ✅
+- Legal comprar vía fideicomiso
+- No se requiere residencia para ser dueño
+
+**PERO se recomienda residencia porque:**
+- Menor ISR al vender (tasas residente vs no-residente)
+- Más fácil abrir cuentas bancarias
+- Proceso RFC más simple
+- Menos papeleo para todo
+- Evitas dolores de cabeza futuros
+
+**Tipos:** Temporal (1-4 años) o Permanente
 
 ## 💰 IMPUESTOS Y RFC - CRÍTICO
 
