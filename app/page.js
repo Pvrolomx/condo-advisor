@@ -266,6 +266,14 @@ export default function Home() {
             <span className="text-[10px] text-[#667781]">{lang === 'en' ? 'today' : 'hoy'}</span>
           </div>
         </div>
+        {/* State difference note */}
+        <div className="px-4 py-1 bg-[#0d1418] border-t border-[#2a3942]">
+          <p className="text-[9px] text-[#667781] text-center">
+            {lang === 'en' 
+              ? '📍 Each tab applies the condo laws of that state (Jalisco vs Nayarit). Federal laws (residency, taxes) are the same.' 
+              : '📍 Cada tab aplica las leyes de condominio de ese estado (Jalisco vs Nayarit). Leyes federales (residencia, impuestos) son iguales.'}
+          </p>
+        </div>
       </header>
 
       {/* Chat area */}
