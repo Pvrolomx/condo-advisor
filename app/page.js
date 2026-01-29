@@ -189,7 +189,7 @@ export default function Home() {
     }
     
     // Check daily limit
-    const stored = localStorage.getItem('condo_advisor_usage')
+    const stored = localStorage.getItem('expat_advisor_usage')
     if (stored) {
       const { count, date } = JSON.parse(stored)
       const today = new Date().toDateString()
@@ -197,7 +197,7 @@ export default function Home() {
         setDailyCount(count)
         if (count >= DAILY_LIMIT) setLimitReached(true)
       } else {
-        localStorage.setItem('condo_advisor_usage', JSON.stringify({ count: 0, date: today }))
+        localStorage.setItem('expat_advisor_usage', JSON.stringify({ count: 0, date: today }))
       }
     }
   }, [])
@@ -300,7 +300,7 @@ export default function Home() {
     const today = new Date().toDateString()
     const newCount = dailyCount + 1
     setDailyCount(newCount)
-    localStorage.setItem('condo_advisor_usage', JSON.stringify({ count: newCount, date: today }))
+    localStorage.setItem('expat_advisor_usage', JSON.stringify({ count: newCount, date: today }))
     if (newCount >= DAILY_LIMIT) {
       setLimitReached(true)
     }
