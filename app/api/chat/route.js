@@ -253,9 +253,12 @@ Technically, only government can impose "multas" (fines). But HOAs can:
 ### ACCEPTED DOCUMENTS
 ✅ Bank statements (6-12 months) - all pages, original or PDF varies
 ✅ Pension letters (Social Security, CPP)
-✅ 401(k)/IRA statements (USA) or RRSP/TFSA (Canada)
+✅ 401(k)/IRA statements (USA) or RRSP/TFSA (Canada) - YES, 401K IS ACCEPTED!
 ✅ Investment/brokerage accounts
 ✅ Property deed in Mexico (value >$600,000 USD)
+
+**IMPORTANT: 401(k) IS VALID** for residency requirements. The balance counts as savings/investments.
+Many people think 401k doesn't count - IT DOES. Just show 12 months of statements with balance above threshold.
 
 ❌ NOT ACCEPTED:
 - Cryptocurrency
@@ -289,14 +292,21 @@ Different consulates have different requirements:
 
 **Total cost:** ~$350-400 USD for entire process
 
-### WHAT'S NOT REQUIRED (common myths!)
-❌ NO medical exam required
-❌ NO criminal background check required
+### WHAT'S NOT REQUIRED (common myths!) - MEMORIZE THIS!
+⚠️ CRITICAL - ALWAYS SAY THIS CLEARLY:
+❌ NO medical exam required - for ANY type of residency (temporal OR permanente)
+❌ NO criminal background check required - Mexico doesn't ask for this
 ❌ NO proof of health insurance required
 ❌ NO minimum age requirement
 ❌ NO language test
 
+NEVER say medical exam is required. NEVER say background check is needed.
 Just financial proof + passport + application!
+
+### CONSISTENT NUMBERS TO USE:
+For TEMPORAL residency: $4,200-4,800/month OR $72,000-80,000 savings
+For PERMANENTE residency: $7,000-8,000/month OR $290,000-320,000 savings
+Don't use other numbers like $27K, $43K, $45K - those are outdated.
 
 ### PROCESS OVERVIEW
 1. Apply at Mexican consulate in YOUR country
@@ -322,10 +332,12 @@ In practice, if you're American/Canadian and overstay 180 days:
 - Still, get residency to avoid hassle and access benefits
 
 **CHANGING STATUS INSIDE MEXICO:**
-EXCEPTION: You CAN change from tourist to resident if:
-- Your spouse is Mexican citizen or resident
-- Apply through "vínculo familiar" (family ties)
-- Otherwise, MUST apply at consulate in your home country
+GENERAL RULE: You CANNOT convert tourist to resident inside Mexico.
+EXCEPTIONS where you CAN change status inside Mexico:
+- Your spouse is Mexican citizen or resident (vínculo familiar)
+- Job offer from Mexican company (oferta de trabajo)
+- Humanitarian reasons (rare)
+For most expats: You MUST exit Mexico and apply at consulate in your home country.
 
 **MEXICAN CORPORATION OWNERSHIP:**
 If you use a Mexican corp to buy property:
@@ -687,14 +699,21 @@ Diferentes consulados tienen diferentes requisitos:
 
 **Costo total:** ~$350-400 USD por todo el proceso
 
-### LO QUE NO SE REQUIERE (¡mitos comunes!)
-❌ NO se requiere examen médico
-❌ NO se requiere carta de antecedentes penales
+### LO QUE NO SE REQUIERE (¡mitos comunes!) - MEMORIZA ESTO!
+⚠️ CRÍTICO - SIEMPRE DI ESTO CLARAMENTE:
+❌ NO se requiere examen médico - para NINGÚN tipo de residencia (temporal O permanente)
+❌ NO se requiere carta de antecedentes penales - México no pide esto
 ❌ NO se requiere seguro médico
 ❌ NO hay edad mínima
 ❌ NO hay examen de idioma
 
+NUNCA digas que se requiere examen médico. NUNCA digas que se necesita background check.
 ¡Solo comprobante financiero + pasaporte + solicitud!
+
+### NÚMEROS CONSISTENTES:
+Para TEMPORAL: $4,200-4,800/mes O $72,000-80,000 ahorros
+Para PERMANENTE: $7,000-8,000/mes O $290,000-320,000 ahorros
+No uses otros números como $27K, $43K, $45K - están desactualizados.
 
 ### PROCESO GENERAL
 1. Aplica en consulado mexicano en TU país
@@ -720,10 +739,12 @@ En la práctica, si eres americano/canadiense y te pasas de los 180 días:
 - Aún así, saca residencia para evitar problemas y acceder a beneficios
 
 **CAMBIAR ESTATUS DENTRO DE MÉXICO:**
-EXCEPCIÓN: SÍ puedes cambiar de turista a residente si:
-- Tu cónyuge es ciudadano/a o residente mexicano/a
-- Aplicas por "vínculo familiar"
-- De lo contrario, DEBES aplicar en consulado de tu país
+REGLA GENERAL: NO puedes convertir turista a residente dentro de México.
+EXCEPCIONES donde SÍ puedes cambiar estatus dentro de México:
+- Tu cónyuge es ciudadano/a o residente mexicano/a (vínculo familiar)
+- Oferta de trabajo de empresa mexicana
+- Razones humanitarias (raro)
+Para la mayoría de expats: DEBES salir de México y aplicar en consulado de tu país.
 
 **CORPORACIÓN MEXICANA:**
 Si usas una corp mexicana para comprar propiedad:
