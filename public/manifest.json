@@ -1,7 +1,7 @@
 {
-  "name": "Condo Advisor",
-  "short_name": "Condo Advisor",
-  "description": "Your bilingual guide to Nayarit & Jalisco condominium law",
+  "name": "Expat Advisor MX",
+  "short_name": "Expat Advisor",
+  "description": "AI-powered information tool for expats in Puerto Vallarta & Riviera Nayarit",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#111b21",
