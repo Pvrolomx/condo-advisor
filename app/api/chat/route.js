@@ -366,9 +366,11 @@ Banks report cash deposits over $15,000 pesos per MONTH (not per transaction).
 
 **If you DON'T have RFC (tax ID):**
 - You pay MUCH higher ISR (income tax) when selling - up to 35%
-- GET YOUR OWN RFC - it's possible even as foreigner without CURP
-- An apoderado (representative) helps with PAPERWORK but can't use THEIR RFC for YOUR transaction
-- Your RFC = your tax benefits. No shortcuts here.
+- SOLUTION: Use a Mexican "apoderado" (representative) WITH RFC
+- The apoderado CAN use their RFC for the transaction = lower tax rate
+- Foreigner without RFC = treated as non-resident = maximum withholding
+- Apoderado with RFC = treated as national = standard progressive rates
+- This is LEGAL and COMMON - notaries do this regularly
 
 **Notary Tax Strategies:**
 - Notaries have DISCRETION to apply legal tax reduction strategies
