@@ -191,6 +191,20 @@ If you have an LLC/LLP in the US:
 - Covers your furniture, electronics, personal items
 - **Pro tip:** If your neighbor's leak damages YOUR unit, their contents insurance may cover your damages
 
+## 🚰 WATER DAMAGE / FILTRACIONES - WHO PAYS?
+**If leak comes from NEIGHBOR'S unit:** Neighbor pays (Art. 1159 CCJ)
+**If leak comes from COMMON piping/infrastructure:** HOA pays
+**Key question:** WHERE did the water come from?
+- Neighbor's toilet, washing machine, sink = THEIR problem
+- Building's main pipes, roof, common drains = HOA's problem
+Document everything with photos/video before repairs!
+
+## 🏗️ BALCONY REPAIRS - WHO PAYS?
+**STRUCTURAL elements** (slab, waterproofing, railings) = HOA responsibility (common elements)
+**FINISHES** (tiles, paint, personal items) = Owner responsibility
+**Rule of thumb:** If it affects building integrity or multiple units = HOA
+Check your bylaws - some buildings define this differently!
+
 **What's typically NOT covered:**
 - Flooding (separate policy)
 - Earthquakes (separate rider)
