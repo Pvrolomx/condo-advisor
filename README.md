@@ -1,23 +1,27 @@
-# 🏝️ Condo Advisor - Nayarit
+# 🌴 Expat Advisor MX
 
-WhatsApp-style bilingual legal assistant for Nayarit condominium law.
+AI-powered information tool for expats in Puerto Vallarta & Riviera Nayarit.
+
+## ⚠️ Important Disclaimer
+
+**This is an AI chatbot providing general information only.** This is NOT legal, tax, immigration, or professional advice. Always consult licensed professionals for specific guidance.
 
 ## Features
 
-- 💬 **WhatsApp-style interface** - Familiar UI for users of all ages
-- 🌴 **Tropical vibes** - Dark mode with subtle palm patterns
+- 🤖 **AI-powered** - Claude-based intelligent responses
+- 💬 **WhatsApp-style interface** - Familiar, easy-to-use UI
+- 🌴🌊 **Two regions** - Puerto Vallarta (Jalisco) & Riviera Nayarit tabs
 - 🇺🇸🇲🇽 **Bilingual** - English and Spanish support
 - 📱 **PWA** - Install on your phone like an app
-- 🏦 **Fideicomiso expertise** - Critical info for foreign property owners
+- 📄 **PDF export** - Save your conversations
+- ⚖️ **Legal compliance** - FTC/UPL disclaimers built-in
 
 ## Topics Covered
 
-- HOA Meetings (Asambleas)
-- Quorum & Voting requirements
-- Fideicomiso & foreign ownership
-- Property manager (Administrador) issues
-- Maintenance fees (Cuotas)
-- Comité de Vigilancia
+- 🏠 **Property ownership** - Fideicomiso, buying/selling, closing costs
+- 📋 **Mexican residency** - Temporal, permanente, requirements
+- 🏢 **Condo/HOA rules** - Asambleas, quorum, cuotas, administrador
+- 💼 **Practical tips** - RFC, banks, utilities, housekeepers
 
 ## Tech Stack
 
@@ -26,12 +30,23 @@ WhatsApp-style bilingual legal assistant for Nayarit condominium law.
 - Tailwind CSS
 - PWA ready
 
-## Legal Disclaimer
+## Legal Compliance
 
-This is an informational tool only. Always consult a licensed Mexican attorney for specific legal matters.
+This tool includes:
+- Mandatory disclaimer modal before first use
+- Persistent AI disclosure banner
+- "Consult a professional" recommendations
+- No "advice" language (information only)
+- Jalisco condo law clarification (pre-1985 vs current CCJ)
+
+## Deployment
+
+Hosted on Vercel with automatic deployments from GitHub.
+
+**Live:** [condo-advisor.vercel.app](https://condo-advisor.vercel.app)
 
 ---
 
 🐝 Built by [duendes.app](https://duendes.app)
 
-*Last updated: 2026-01-25*
+*Last updated: 2026-01-29*
