@@ -1,14 +1,14 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Condo Advisor',
-  description: 'Your bilingual guide to Nayarit & Jalisco condominium law',
+  title: 'Expat Advisor MX',
+  description: 'AI-powered information tool for expats in Puerto Vallarta & Riviera Nayarit',
   manifest: '/manifest.json',
   themeColor: '#00a884',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'Condo Advisor',
+    title: 'Expat Advisor MX',
   },
   viewport: {
     width: 'device-width',
